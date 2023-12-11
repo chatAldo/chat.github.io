@@ -3,16 +3,22 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f5f5f5;
 }
 
 h1 {
   text-align: center;
+  color: #075e54;
+  margin-bottom: 20px;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilos para el formulario */
@@ -27,15 +33,15 @@ input[type="text"] {
   padding: 8px;
   margin-right: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 20px;
   flex: 1;
 }
 
 button {
   padding: 8px 16px;
   border: none;
-  border-radius: 4px;
-  background-color: #007bff;
+  border-radius: 20px;
+  background-color: #128c7e;
   color: white;
   cursor: pointer;
 }
@@ -47,10 +53,10 @@ button {
 }
 
 #mensajes li {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
   padding: 10px 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #mensajes li img {
@@ -62,7 +68,17 @@ button {
 
 .msg {
   flex: 1;
+  background-color: #e6f7ff;
+  padding: 10px;
+  border-radius: 10px;
 }
+
+.date {
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+}
+
 
 .date {
   font-size: 12px;
