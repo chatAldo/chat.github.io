@@ -1,2 +1,2 @@
-# chat.github.io
-chat en linea
+# rickchat
+Ejemplo de un chat y acceso a Firebase (Firestore con Google)
